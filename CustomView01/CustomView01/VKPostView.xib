@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="198" id="7lO-ob-zRi" customClass="VKPostView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="qC6-wf-1Ye">
+                    <rect key="frame" x="4" y="4" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="q7W-7S-AQx"/>
+                        <constraint firstAttribute="height" constant="42" id="t8p-Xz-Zto"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrM-9l-Exw">
+                    <rect key="frame" x="4" y="570" width="26" height="26"/>
+                    <color key="backgroundColor" red="0.83690845966339111" green="0.83705276250839233" blue="0.83689939975738525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="DBN-hY-MFf"/>
+                        <constraint firstAttribute="height" constant="26" id="LRg-B3-fBb"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                    <state key="normal" image="comment-icon"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdb-m9-yvt">
+                    <rect key="frame" x="570" y="570" width="26" height="26"/>
+                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="Ee2-3C-PLX"/>
+                        <constraint firstAttribute="width" constant="26" id="Z51-Zg-oJK"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                    <state key="normal" image="heart-icon"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gt6-fs-MRs">
+                    <rect key="frame" x="570" y="4" width="26" height="26"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="26" id="IpU-oF-R3C"/>
+                        <constraint firstAttribute="height" constant="26" id="uGP-Fa-xQv"/>
+                    </constraints>
+                    <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                    <state key="normal" image="more-icon"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cio-8P-VHq">
+                    <rect key="frame" x="50" y="4" width="78" height="20"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XPc-lf-3c5">
+                    <rect key="frame" x="4" y="50" width="583" height="167"/>
+                    <string key="text">Farm-to-table blog distillery offal, echo park lomo williamsburg. Crucifix organic quinoa, kitsch vinyl artisan dreamcatcher hashtag salvia everyday carry viral forage tumblr raw denim chambray. Banh mi tilde VHS, retro disrupt pug wolf kombucha lumbersexual meggings chia. Meh mustache sriracha franzen, flexitarian cold-pressed biodiesel ugh raw denim waistcoat green juice neutra. Hoodie celiac tofu lumbersexual meditation pop-up franzen, typewriter seitan wayfarers food truck. Normcore pinterest disrupt, fingerstache heirloom pop-up shabby chic food truck four loko meggings. Hella butcher keffiyeh keytar.</string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.82866585254669189" green="0.9920540452003479" blue="0.43853819370269775" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Qdb-m9-yvt" secondAttribute="bottom" constant="4" id="0Uw-nm-Yc2"/>
+                <constraint firstItem="XPc-lf-3c5" firstAttribute="top" secondItem="qC6-wf-1Ye" secondAttribute="bottom" constant="4" id="Cc6-d4-aUO"/>
+                <constraint firstItem="DrM-9l-Exw" firstAttribute="leading" secondItem="7lO-ob-zRi" secondAttribute="leading" constant="4" id="E4i-vX-eOm"/>
+                <constraint firstItem="cio-8P-VHq" firstAttribute="top" secondItem="qC6-wf-1Ye" secondAttribute="top" id="GWi-n4-vYN"/>
+                <constraint firstItem="gt6-fs-MRs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cio-8P-VHq" secondAttribute="trailing" constant="4" id="IHt-31-zJh"/>
+                <constraint firstAttribute="trailing" secondItem="Qdb-m9-yvt" secondAttribute="trailing" constant="4" id="OLj-dW-Pkf"/>
+                <constraint firstAttribute="trailing" secondItem="gt6-fs-MRs" secondAttribute="trailing" constant="4" id="Ozr-Yo-aah"/>
+                <constraint firstItem="cio-8P-VHq" firstAttribute="leading" secondItem="qC6-wf-1Ye" secondAttribute="trailing" constant="4" id="SmU-nn-bXK"/>
+                <constraint firstItem="qC6-wf-1Ye" firstAttribute="leading" secondItem="7lO-ob-zRi" secondAttribute="leading" constant="4" id="T6W-aI-kC8"/>
+                <constraint firstItem="DrM-9l-Exw" firstAttribute="top" secondItem="XPc-lf-3c5" secondAttribute="bottom" priority="251" constant="4" id="TWv-j1-E35"/>
+                <constraint firstItem="XPc-lf-3c5" firstAttribute="leading" secondItem="7lO-ob-zRi" secondAttribute="leading" constant="4" id="gn1-yq-NCG"/>
+                <constraint firstItem="DrM-9l-Exw" firstAttribute="top" relation="greaterThanOrEqual" secondItem="XPc-lf-3c5" secondAttribute="bottom" constant="4" id="pmZ-DW-vkP"/>
+                <constraint firstItem="gt6-fs-MRs" firstAttribute="top" secondItem="7lO-ob-zRi" secondAttribute="top" constant="4" id="r25-6o-7DP"/>
+                <constraint firstAttribute="bottom" secondItem="DrM-9l-Exw" secondAttribute="bottom" constant="4" id="sez-tm-pjg"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XPc-lf-3c5" secondAttribute="trailing" constant="4" id="y8q-ZE-57n"/>
+                <constraint firstItem="qC6-wf-1Ye" firstAttribute="top" secondItem="7lO-ob-zRi" secondAttribute="top" constant="4" id="yhq-hl-xpb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="avatarImageView" destination="qC6-wf-1Ye" id="DKS-6k-JRA"/>
+                <outlet property="commentButton" destination="DrM-9l-Exw" id="7JG-pI-EbH"/>
+                <outlet property="contentLabel" destination="XPc-lf-3c5" id="RxA-eH-3AI"/>
+                <outlet property="likeButton" destination="Qdb-m9-yvt" id="pQQ-yI-eW3"/>
+                <outlet property="moreButton" destination="gt6-fs-MRs" id="G8X-nn-Cur"/>
+                <outlet property="usernameLabel" destination="cio-8P-VHq" id="Y1K-pt-7ic"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar" width="250" height="250"/>
+        <image name="comment-icon" width="128" height="128"/>
+        <image name="heart-icon" width="64" height="64"/>
+        <image name="more-icon" width="256" height="256"/>
+    </resources>
+</document>
