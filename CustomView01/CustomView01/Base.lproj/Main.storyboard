@@ -314,11 +314,13 @@ Making Data Storage Problems Smaller</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Jbc-Wp-cMY">
-                                <rect key="frame" x="191.5" y="20" width="218" height="29"/>
+                                <rect key="frame" x="108.5" y="20" width="384" height="29"/>
                                 <segments>
                                     <segment title="Flow"/>
                                     <segment title="Ещё Flow"/>
                                     <segment title="Waterfall"/>
+                                    <segment title="Coverflow"/>
+                                    <segment title="Roulette"/>
                                 </segments>
                                 <connections>
                                     <action selector="selectLayout:" destination="orZ-bg-wDw" eventType="valueChanged" id="G7e-2Q-Ond"/>

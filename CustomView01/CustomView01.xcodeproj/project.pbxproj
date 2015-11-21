@@ -31,6 +31,14 @@
 		85215F321BEE58BE00964257 /* VKNiblessPostView+VKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 85215F311BEE58BE00964257 /* VKNiblessPostView+VKPost.m */; };
 		855CA5F31C00B899008B8032 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5F21C00B899008B8032 /* CollectionViewController.m */; };
 		855CA5F61C00BA21008B8032 /* AvatarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5F51C00BA21008B8032 /* AvatarCollectionViewCell.m */; };
+		855CA6051C00C316008B8032 /* CBetterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5FA1C00C316008B8032 /* CBetterCollectionViewCell.m */; };
+		855CA6061C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5FC1C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.m */; };
+		855CA6071C00C316008B8032 /* CCoverflowCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5FE1C00C316008B8032 /* CCoverflowCollectionViewLayout.m */; };
+		855CA6081C00C316008B8032 /* CInterpolator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 855CA6001C00C316008B8032 /* CInterpolator.mm */; };
+		855CA6091C00C316008B8032 /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA6021C00C316008B8032 /* CReflectionView.m */; };
+		855CA60A1C00C316008B8032 /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 855CA6031C00C316008B8032 /* Interpolator.cpp */; };
+		855CA60E1C00C565008B8032 /* RVCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA60D1C00C565008B8032 /* RVCollectionViewLayout.m */; };
+		855CA6121C00C7BC008B8032 /* LECollectionViewWatchLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA6111C00C7BC008B8032 /* LECollectionViewWatchLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +107,22 @@
 		855CA5F21C00B899008B8032 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		855CA5F41C00BA21008B8032 /* AvatarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarCollectionViewCell.h; sourceTree = "<group>"; };
 		855CA5F51C00BA21008B8032 /* AvatarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarCollectionViewCell.m; sourceTree = "<group>"; };
+		855CA5F91C00C316008B8032 /* CBetterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewCell.h; sourceTree = "<group>"; };
+		855CA5FA1C00C316008B8032 /* CBetterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewCell.m; sourceTree = "<group>"; };
+		855CA5FB1C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		855CA5FC1C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		855CA5FD1C00C316008B8032 /* CCoverflowCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoverflowCollectionViewLayout.h; sourceTree = "<group>"; };
+		855CA5FE1C00C316008B8032 /* CCoverflowCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoverflowCollectionViewLayout.m; sourceTree = "<group>"; };
+		855CA5FF1C00C316008B8032 /* CInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CInterpolator.h; sourceTree = "<group>"; };
+		855CA6001C00C316008B8032 /* CInterpolator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CInterpolator.mm; sourceTree = "<group>"; };
+		855CA6011C00C316008B8032 /* CReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CReflectionView.h; sourceTree = "<group>"; };
+		855CA6021C00C316008B8032 /* CReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CReflectionView.m; sourceTree = "<group>"; };
+		855CA6031C00C316008B8032 /* Interpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpolator.cpp; sourceTree = "<group>"; };
+		855CA6041C00C316008B8032 /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
+		855CA60C1C00C565008B8032 /* RVCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVCollectionViewLayout.h; path = RouletteWheelCollectionViewDemo/RouletteViewDemo/RVCollectionViewLayout.h; sourceTree = "<group>"; };
+		855CA60D1C00C565008B8032 /* RVCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RVCollectionViewLayout.m; path = RouletteWheelCollectionViewDemo/RouletteViewDemo/RVCollectionViewLayout.m; sourceTree = "<group>"; };
+		855CA6101C00C7BC008B8032 /* LECollectionViewWatchLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LECollectionViewWatchLayout.h; path = LEWatchLayout/LEWatchLayout/LEWatchLayout/LECollectionViewWatchLayout.h; sourceTree = "<group>"; };
+		855CA6111C00C7BC008B8032 /* LECollectionViewWatchLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LECollectionViewWatchLayout.m; path = LEWatchLayout/LEWatchLayout/LEWatchLayout/LECollectionViewWatchLayout.m; sourceTree = "<group>"; };
 		E632B5AC27CCF06C5BCDAE41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -158,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				85215EE51BEE0CD000964257 /* CustomView01 */,
+				855CA5F71C00C2FF008B8032 /* Vendor */,
 				85215F021BEE0CD000964257 /* CustomView01Tests */,
 				85215F0D1BEE0CD000964257 /* CustomView01UITests */,
 				85215EE41BEE0CD000964257 /* Products */,
@@ -268,6 +293,54 @@
 				855CA5F51C00BA21008B8032 /* AvatarCollectionViewCell.m */,
 			);
 			name = Collection;
+			sourceTree = "<group>";
+		};
+		855CA5F71C00C2FF008B8032 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				855CA60F1C00C7B1008B8032 /* LEWatchLayout */,
+				855CA5F81C00C316008B8032 /* Coverflow */,
+				855CA60B1C00C544008B8032 /* RVCollectionViewLayout */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		855CA5F81C00C316008B8032 /* Coverflow */ = {
+			isa = PBXGroup;
+			children = (
+				855CA5F91C00C316008B8032 /* CBetterCollectionViewCell.h */,
+				855CA5FA1C00C316008B8032 /* CBetterCollectionViewCell.m */,
+				855CA5FB1C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.h */,
+				855CA5FC1C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.m */,
+				855CA5FD1C00C316008B8032 /* CCoverflowCollectionViewLayout.h */,
+				855CA5FE1C00C316008B8032 /* CCoverflowCollectionViewLayout.m */,
+				855CA5FF1C00C316008B8032 /* CInterpolator.h */,
+				855CA6001C00C316008B8032 /* CInterpolator.mm */,
+				855CA6011C00C316008B8032 /* CReflectionView.h */,
+				855CA6021C00C316008B8032 /* CReflectionView.m */,
+				855CA6031C00C316008B8032 /* Interpolator.cpp */,
+				855CA6041C00C316008B8032 /* Interpolator.h */,
+			);
+			name = Coverflow;
+			path = Coverflow/Coverflow;
+			sourceTree = "<group>";
+		};
+		855CA60B1C00C544008B8032 /* RVCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				855CA60C1C00C565008B8032 /* RVCollectionViewLayout.h */,
+				855CA60D1C00C565008B8032 /* RVCollectionViewLayout.m */,
+			);
+			name = RVCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		855CA60F1C00C7B1008B8032 /* LEWatchLayout */ = {
+			isa = PBXGroup;
+			children = (
+				855CA6101C00C7BC008B8032 /* LECollectionViewWatchLayout.h */,
+				855CA6111C00C7BC008B8032 /* LECollectionViewWatchLayout.m */,
+			);
+			name = LEWatchLayout;
 			sourceTree = "<group>";
 		};
 		CD754EABAFE889CDCB6A1DB6 /* Pods */ = {
@@ -472,13 +545,18 @@
 				855CA5F31C00B899008B8032 /* CollectionViewController.m in Sources */,
 				850EA8931BF8C696001FF491 /* StaticViewController.m in Sources */,
 				850EA89D1BF8D362001FF491 /* TwitterTableViewCell+TwitterPost.m in Sources */,
+				855CA60A1C00C316008B8032 /* Interpolator.cpp in Sources */,
 				850EA8961BF8CF61001FF491 /* TwitterPost.m in Sources */,
 				85215F321BEE58BE00964257 /* VKNiblessPostView+VKPost.m in Sources */,
+				855CA6091C00C316008B8032 /* CReflectionView.m in Sources */,
 				85215F241BEE3D1200964257 /* PostsDataSource.m in Sources */,
+				855CA60E1C00C565008B8032 /* RVCollectionViewLayout.m in Sources */,
 				850EA88C1BF8B845001FF491 /* VKPostTableViewCell+VKPost.m in Sources */,
 				85215F291BEE457300964257 /* VKPostView+VKPost.m in Sources */,
+				855CA6071C00C316008B8032 /* CCoverflowCollectionViewLayout.m in Sources */,
 				855CA5F61C00BA21008B8032 /* AvatarCollectionViewCell.m in Sources */,
 				85215EEB1BEE0CD000964257 /* AppDelegate.m in Sources */,
+				855CA6051C00C316008B8032 /* CBetterCollectionViewCell.m in Sources */,
 				850EA8891BF8AE49001FF491 /* VKPostTableViewCell.m in Sources */,
 				85215F1E1BEE0FE000964257 /* VKPostView.m in Sources */,
 				850EA8861BF8ACD4001FF491 /* FeedViewController.m in Sources */,
@@ -486,6 +564,9 @@
 				850EA8991BF8D0BF001FF491 /* TwitterTableViewCell.m in Sources */,
 				85215F211BEE3C7400964257 /* VKPost.m in Sources */,
 				85215EE81BEE0CD000964257 /* main.m in Sources */,
+				855CA6061C00C316008B8032 /* CBetterCollectionViewLayoutAttributes.m in Sources */,
+				855CA6121C00C7BC008B8032 /* LECollectionViewWatchLayout.m in Sources */,
+				855CA6081C00C316008B8032 /* CInterpolator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

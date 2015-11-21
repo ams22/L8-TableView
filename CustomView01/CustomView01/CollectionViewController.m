@@ -11,6 +11,9 @@
 #import "AvatarCollectionViewCell.h"
 #import <AFNetworking/UIKit+AFNetworking.h>
 #import <CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.h>
+#import "CCoverflowCollectionViewLayout.h"
+#import "RVCollectionViewLayout.h"
+#import "LECollectionViewWatchLayout.h"
 
 @interface CollectionViewController ()
 <UICollectionViewDataSource,
@@ -21,6 +24,9 @@ CHTCollectionViewDelegateWaterfallLayout>
 @property (strong, nonatomic) IBOutlet UICollectionViewFlowLayout *defaultLayout;
 @property (strong, nonatomic) UICollectionViewFlowLayout *anotherFlowLayout;
 @property (strong, nonatomic) CHTCollectionViewWaterfallLayout *waterfallLayout;
+@property (strong, nonatomic) CCoverflowCollectionViewLayout *coverflowLayout;
+@property (strong, nonatomic) RVCollectionViewLayout *rouletteLayout;
+@property (strong, nonatomic) LECollectionViewWatchLayout *watchLayout;
 @property (strong, nonatomic) PostsDataSource *dataSource;
 @property (copy, nonatomic) NSArray<VKPost *> *posts;
 
@@ -43,19 +49,28 @@ CHTCollectionViewDelegateWaterfallLayout>
     CHTCollectionViewWaterfallLayout *waterfallLayout = [[CHTCollectionViewWaterfallLayout alloc] init];
     waterfallLayout.columnCount = 4;
     _waterfallLayout = waterfallLayout;
+
+    CCoverflowCollectionViewLayout *coverflowLayout = [[CCoverflowCollectionViewLayout alloc] init];
+    coverflowLayout.cellSize = CGSizeMake(600.f, 400.f);
+    coverflowLayout.snapToCells = YES;
+    _coverflowLayout = coverflowLayout;
+
+    RVCollectionViewLayout *rouletteLayout = [[RVCollectionViewLayout alloc] init];
+    _rouletteLayout = rouletteLayout;
+
+    LECollectionViewWatchLayout *watchLayout = [[LECollectionViewWatchLayout alloc] init];
+    watchLayout.circleInterval = 15.0;
+    watchLayout.circleRadius = 90.0;
+    _watchLayout = watchLayout;
 }
 
 - (UICollectionViewLayout *)layoutWithIndex:(NSInteger)index {
-    switch (index) {
-        case 0:
-            return self.defaultLayout;
-        case 1:
-            return self.anotherFlowLayout;
-        case 2:
-            return self.waterfallLayout;
-        default:
-            return nil;
-    }
+    return @[ self.defaultLayout,
+              self.anotherFlowLayout,
+              self.waterfallLayout,
+              self.coverflowLayout,
+              self.rouletteLayout,
+              self.watchLayout ][index];
 }
 
 - (IBAction)selectLayout:(UISegmentedControl *)segmentedControl {
@@ -91,7 +106,8 @@ CHTCollectionViewDelegateWaterfallLayout>
                           100 + arc4random() % 100);
     }
     else if (collectionViewLayout == self.defaultLayout ||
-             collectionViewLayout == self.anotherFlowLayout) {
+             collectionViewLayout == self.anotherFlowLayout ||
+             collectionViewLayout == self.rouletteLayout) {
         UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout *)collectionViewLayout;
         return flowLayout.itemSize;
     }

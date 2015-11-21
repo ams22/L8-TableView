@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CBD5E34F459E78AB6F555368FB5D6C673B400EC1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "37B23A0CCB00E5875607B64C07CAB953149C934B" : 0,
+    "613CEEC85F6F04A53804E8DED51832C494B49DA1" : 0,
+    "CBD5E34F459E78AB6F555368FB5D6C673B400EC1" : 0,
+    "2F9E5DB84442F63F3CC0F83DCB435BF9CB66469B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "45A1A49D-4F35-4469-AC2E-2EE0482BDD6B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "37B23A0CCB00E5875607B64C07CAB953149C934B" : "L8-TableView\/CustomView01\/RouletteWheelCollectionViewDemo\/",
+    "613CEEC85F6F04A53804E8DED51832C494B49DA1" : "L8-TableView\/CustomView01\/LEWatchLayout\/",
+    "CBD5E34F459E78AB6F555368FB5D6C673B400EC1" : "L8-TableView\/",
+    "2F9E5DB84442F63F3CC0F83DCB435BF9CB66469B" : "L8-TableView\/CustomView01\/Coverflow\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomView01",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomView01\/CustomView01.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/schwa\/Coverflow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F9E5DB84442F63F3CC0F83DCB435BF9CB66469B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kenshin03\/RouletteWheelCollectionViewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37B23A0CCB00E5875607B64C07CAB953149C934B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leodie\/LEWatchLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "613CEEC85F6F04A53804E8DED51832C494B49DA1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ios11\/L8-TableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CBD5E34F459E78AB6F555368FB5D6C673B400EC1"
+    }
+  ]
+}
