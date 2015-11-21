@@ -29,6 +29,8 @@
 		85215F291BEE457300964257 /* VKPostView+VKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 85215F281BEE457300964257 /* VKPostView+VKPost.m */; };
 		85215F2C1BEE558100964257 /* VKNiblessPostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85215F2B1BEE558100964257 /* VKNiblessPostView.m */; };
 		85215F321BEE58BE00964257 /* VKNiblessPostView+VKPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 85215F311BEE58BE00964257 /* VKNiblessPostView+VKPost.m */; };
+		855CA5F31C00B899008B8032 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5F21C00B899008B8032 /* CollectionViewController.m */; };
+		855CA5F61C00BA21008B8032 /* AvatarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA5F51C00BA21008B8032 /* AvatarCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,10 @@
 		85215F2B1BEE558100964257 /* VKNiblessPostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKNiblessPostView.m; sourceTree = "<group>"; };
 		85215F301BEE58BE00964257 /* VKNiblessPostView+VKPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VKNiblessPostView+VKPost.h"; sourceTree = "<group>"; };
 		85215F311BEE58BE00964257 /* VKNiblessPostView+VKPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VKNiblessPostView+VKPost.m"; sourceTree = "<group>"; };
+		855CA5F11C00B899008B8032 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		855CA5F21C00B899008B8032 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		855CA5F41C00BA21008B8032 /* AvatarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarCollectionViewCell.h; sourceTree = "<group>"; };
+		855CA5F51C00BA21008B8032 /* AvatarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarCollectionViewCell.m; sourceTree = "<group>"; };
 		E632B5AC27CCF06C5BCDAE41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -173,6 +179,7 @@
 		85215EE51BEE0CD000964257 /* CustomView01 */ = {
 			isa = PBXGroup;
 			children = (
+				855CA5F01C00B883008B8032 /* Collection */,
 				850EA8901BF8C67E001FF491 /* Static */,
 				850EA8831BF8ACBE001FF491 /* Feed */,
 				85215F351BEE598100964257 /* Model */,
@@ -250,6 +257,17 @@
 				850EA89A1BF8D285001FF491 /* Post.h */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		855CA5F01C00B883008B8032 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				855CA5F11C00B899008B8032 /* CollectionViewController.h */,
+				855CA5F21C00B899008B8032 /* CollectionViewController.m */,
+				855CA5F41C00BA21008B8032 /* AvatarCollectionViewCell.h */,
+				855CA5F51C00BA21008B8032 /* AvatarCollectionViewCell.m */,
+			);
+			name = Collection;
 			sourceTree = "<group>";
 		};
 		CD754EABAFE889CDCB6A1DB6 /* Pods */ = {
@@ -451,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855CA5F31C00B899008B8032 /* CollectionViewController.m in Sources */,
 				850EA8931BF8C696001FF491 /* StaticViewController.m in Sources */,
 				850EA89D1BF8D362001FF491 /* TwitterTableViewCell+TwitterPost.m in Sources */,
 				850EA8961BF8CF61001FF491 /* TwitterPost.m in Sources */,
@@ -458,6 +477,7 @@
 				85215F241BEE3D1200964257 /* PostsDataSource.m in Sources */,
 				850EA88C1BF8B845001FF491 /* VKPostTableViewCell+VKPost.m in Sources */,
 				85215F291BEE457300964257 /* VKPostView+VKPost.m in Sources */,
+				855CA5F61C00BA21008B8032 /* AvatarCollectionViewCell.m in Sources */,
 				85215EEB1BEE0CD000964257 /* AppDelegate.m in Sources */,
 				850EA8891BF8AE49001FF491 /* VKPostTableViewCell.m in Sources */,
 				85215F1E1BEE0FE000964257 /* VKPostView.m in Sources */,
