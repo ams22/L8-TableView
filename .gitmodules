@@ -1,9 +1,9 @@
 [submodule "CustomView01/Coverflow"]
 	path = CustomView01/Coverflow
-	url = https://github.com/schwa/Coverflow.git
+	url = https://github.com/kolyuchiy/Coverflow.git
 [submodule "CustomView01/RouletteWheelCollectionViewDemo"]
 	path = CustomView01/RouletteWheelCollectionViewDemo
 	url = https://github.com/kenshin03/RouletteWheelCollectionViewDemo.git
 [submodule "CustomView01/LEWatchLayout"]
 	path = CustomView01/LEWatchLayout
-	url = https://github.com/leodie/LEWatchLayout.git
+	url = https://github.com/kolyuchiy/LEWatchLayout.git
