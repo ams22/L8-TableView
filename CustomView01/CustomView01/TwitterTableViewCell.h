@@ -10,6 +10,7 @@
 
 @interface TwitterTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIView *patternView;
 @property (weak, nonatomic) IBOutlet UILabel *tweetLabel;
 
 @end

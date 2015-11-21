@@ -10,4 +10,11 @@
 
 @implementation TwitterTableViewCell
 
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    self.patternView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"symphony"]];
+    self.patternView.layer.cornerRadius = 4.f;
+}
+
 @end

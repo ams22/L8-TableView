@@ -37,33 +37,42 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Kk-MM-0uH">
+                                                    <rect key="frame" x="8" y="0.0" width="584" height="92"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter-icon" translatesAutoresizingMaskIntoConstraints="NO" id="GqO-4d-cii">
-                                                    <rect key="frame" x="8" y="25" width="50" height="50"/>
+                                                    <rect key="frame" x="16" y="21" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="sJd-zr-8JV"/>
                                                         <constraint firstAttribute="height" constant="50" id="sYd-kL-CoB"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egM-QI-xef">
-                                                    <rect key="frame" x="66" y="39.5" width="80" height="20.5"/>
+                                                    <rect key="frame" x="74" y="35" width="80" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="egM-QI-xef" firstAttribute="leading" secondItem="GqO-4d-cii" secondAttribute="trailing" constant="8" id="0oU-5J-AjC"/>
-                                                <constraint firstItem="egM-QI-xef" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hI5-la-B8p" secondAttribute="topMargin" constant="4" id="3as-Pz-F7n"/>
-                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="GqO-4d-cii" secondAttribute="bottom" constant="4" id="7Fc-Qe-mvO"/>
-                                                <constraint firstItem="GqO-4d-cii" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hI5-la-B8p" secondAttribute="topMargin" constant="4" id="DGm-Kp-ipw"/>
-                                                <constraint firstItem="GqO-4d-cii" firstAttribute="centerY" secondItem="hI5-la-B8p" secondAttribute="centerY" id="G7N-sG-dMT"/>
+                                                <constraint firstItem="egM-QI-xef" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hI5-la-B8p" secondAttribute="top" constant="4" id="3as-Pz-F7n"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="GqO-4d-cii" secondAttribute="bottom" constant="12" id="7Fc-Qe-mvO"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="8Kk-MM-0uH" secondAttribute="trailing" id="BLH-4p-rAA"/>
+                                                <constraint firstItem="GqO-4d-cii" firstAttribute="top" relation="greaterThanOrEqual" secondItem="hI5-la-B8p" secondAttribute="top" constant="4" id="DGm-Kp-ipw"/>
+                                                <constraint firstItem="GqO-4d-cii" firstAttribute="centerY" secondItem="hI5-la-B8p" secondAttribute="centerY" constant="-4" id="G7N-sG-dMT"/>
                                                 <constraint firstItem="GqO-4d-cii" firstAttribute="centerY" secondItem="egM-QI-xef" secondAttribute="centerY" id="GLC-qd-Lrs"/>
-                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="egM-QI-xef" secondAttribute="bottom" constant="4" id="oHi-Mg-OoA"/>
-                                                <constraint firstAttribute="leadingMargin" secondItem="GqO-4d-cii" secondAttribute="leading" id="qcP-j7-yZU"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="8Kk-MM-0uH" secondAttribute="bottom" id="R6B-8S-LhI"/>
+                                                <constraint firstItem="8Kk-MM-0uH" firstAttribute="leading" secondItem="hI5-la-B8p" secondAttribute="leadingMargin" id="UTv-VR-XYV"/>
+                                                <constraint firstItem="8Kk-MM-0uH" firstAttribute="top" secondItem="hI5-la-B8p" secondAttribute="top" id="Vlv-oX-LXU"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="egM-QI-xef" secondAttribute="bottom" constant="12" id="oHi-Mg-OoA"/>
                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="egM-QI-xef" secondAttribute="trailing" id="rya-Bi-aLZ"/>
+                                                <constraint firstItem="GqO-4d-cii" firstAttribute="leading" secondItem="8Kk-MM-0uH" secondAttribute="leading" constant="8" id="ubv-JH-w6J"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="patternView" destination="8Kk-MM-0uH" id="3UX-Fs-5Wk"/>
                                             <outlet property="tweetLabel" destination="egM-QI-xef" id="e5p-No-5sy"/>
                                         </connections>
                                     </tableViewCell>
@@ -117,7 +126,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="sFP-nw-ap3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="Pied Piper" id="Lfl-xd-95z">
                                 <string key="footerTitle">We are a small, focused, business-facing compression company intent on providing the absolute best in data-management solutions.</string>
@@ -151,7 +160,7 @@
                                                     <string key="text">A Middle-Out Compression Solution 
 Making Data Storage Problems Smaller</string>
                                                     <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -237,7 +246,7 @@ Making Data Storage Problems Smaller</string>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Показывать аватары" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kp-TY-Wd3">
                                                     <rect key="frame" x="8" y="11.5" width="164.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnD-zK-W4c">
@@ -262,7 +271,7 @@ Making Data Storage Problems Smaller</string>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Разрешить комментарии" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaV-u0-vFj">
                                                     <rect key="frame" x="8" y="11.5" width="202" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3jb-cx-Fjt">
