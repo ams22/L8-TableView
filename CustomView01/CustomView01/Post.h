@@ -10,4 +10,6 @@
 
 @protocol Post <NSObject>
 
+@property (nonatomic, readonly, copy) NSString *text;
+
 @end

@@ -17,6 +17,7 @@
 @property (nonatomic, weak) IBOutlet UIButton *likeButton;
 @property (nonatomic, weak) IBOutlet UIImageView *avatarImageView;
 @property (nonatomic, weak) IBOutlet UILabel *usernameLabel;
+
 @property (nonatomic, weak) IBOutlet UILabel *contentLabel;
 
 @property (nonatomic, copy) NSString *contentText;

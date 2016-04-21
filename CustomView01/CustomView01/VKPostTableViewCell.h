@@ -23,6 +23,8 @@
 
 @interface VKPostTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UILabel *contentLabel;
+
 @property (weak, nonatomic) IBOutlet VKPostView *postView;
 @property (weak, nonatomic) id<VKPostTableViewCellDelegate> delegate;
 

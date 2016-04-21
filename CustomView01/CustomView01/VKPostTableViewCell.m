@@ -14,20 +14,6 @@
     [super awakeFromNib];
 
     self.selectionStyle = UITableViewCellSelectionStyleNone;
-
-    VKPostView *postView = [VKPostView loadFromNib];
-    postView.translatesAutoresizingMaskIntoConstraints = NO;
-    [self.contentView addSubview:postView];
-    _postView = postView;
-
-    [self.contentView.topAnchor constraintEqualToAnchor:postView.topAnchor].active = YES;
-    [self.contentView.layoutMarginsGuide.bottomAnchor constraintEqualToAnchor:postView.bottomAnchor].active = YES;
-    [self.contentView.readableContentGuide.leadingAnchor constraintEqualToAnchor:postView.leadingAnchor].active = YES;
-    [self.contentView.readableContentGuide.trailingAnchor constraintEqualToAnchor:postView.trailingAnchor].active = YES;
-
-    [postView.moreButton addTarget:self action:@selector(more) forControlEvents:UIControlEventTouchUpInside];
-    [postView.commentButton addTarget:self action:@selector(comment) forControlEvents:UIControlEventTouchUpInside];
-    [postView.likeButton addTarget:self action:@selector(like) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated {

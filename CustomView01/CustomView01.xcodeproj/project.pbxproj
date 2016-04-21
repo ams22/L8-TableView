@@ -39,6 +39,7 @@
 		855CA60A1C00C316008B8032 /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 855CA6031C00C316008B8032 /* Interpolator.cpp */; };
 		855CA60E1C00C565008B8032 /* RVCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA60D1C00C565008B8032 /* RVCollectionViewLayout.m */; };
 		855CA6121C00C7BC008B8032 /* LECollectionViewWatchLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 855CA6111C00C7BC008B8032 /* LECollectionViewWatchLayout.m */; };
+		85C0029D1CC7F081005D25FA /* VKPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C0029C1CC7F081005D25FA /* VKPostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		855CA60D1C00C565008B8032 /* RVCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RVCollectionViewLayout.m; path = RouletteWheelCollectionViewDemo/RouletteViewDemo/RVCollectionViewLayout.m; sourceTree = "<group>"; };
 		855CA6101C00C7BC008B8032 /* LECollectionViewWatchLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LECollectionViewWatchLayout.h; path = LEWatchLayout/LEWatchLayout/LEWatchLayout/LECollectionViewWatchLayout.h; sourceTree = "<group>"; };
 		855CA6111C00C7BC008B8032 /* LECollectionViewWatchLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LECollectionViewWatchLayout.m; path = LEWatchLayout/LEWatchLayout/LEWatchLayout/LECollectionViewWatchLayout.m; sourceTree = "<group>"; };
+		85C0029C1CC7F081005D25FA /* VKPostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKPostTableViewCell.xib; sourceTree = "<group>"; };
 		E632B5AC27CCF06C5BCDAE41 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -261,6 +263,7 @@
 		85215F341BEE596000964257 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
+				85C0029C1CC7F081005D25FA /* VKPostTableViewCell.xib */,
 				85215F1C1BEE0FE000964257 /* VKPostView.h */,
 				85215F1D1BEE0FE000964257 /* VKPostView.m */,
 				85215F251BEE434400964257 /* VKPostView.xib */,
@@ -466,6 +469,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C0029D1CC7F081005D25FA /* VKPostTableViewCell.xib in Resources */,
 				85215EF91BEE0CD000964257 /* LaunchScreen.storyboard in Resources */,
 				85215F261BEE434400964257 /* VKPostView.xib in Resources */,
 				85215EF61BEE0CD000964257 /* Assets.xcassets in Resources */,
